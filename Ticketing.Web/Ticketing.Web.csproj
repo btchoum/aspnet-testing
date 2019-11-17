@@ -135,6 +135,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Api\Ticket.cs" />
     <Compile Include="Controllers\Mvc\TicketsMvcController.cs" />
     <Compile Include="Models\TicketCreateDTO.cs" />
     <Compile Include="Controllers\Api\TicketsApiController.cs" />
