@@ -24,9 +24,16 @@ The application needs to be tested using a combination of
 ### Unit Tests
 These tests will verify that individual classes or small combination of classes operate correctly to fulfil a specific unit of functionality. 
 The unit tests should run completely in memory of a single process. They will have no interaction with outside systems, network, or file system.
+Example of components that will be unit tested:
+- Model classes with business logic
+- Application Service classes with interactions
+- MVC/API Controller actions with test-double dependencies
 
 ### Integration Tests
 Integration or Component tests will mostly test the interaction between the application and external systems. For example, we will use integration tests to verify that tickets can be properly saved into and retrieved from the database.
+Examples of Integration Tests:
+- Data access classes (Repositories)
+- Fully assembled controller (MVC or Web API)
 
 ### End to End Tests
 E2E tests will verify the functionality of the complete system. In our case we will have two types of E2E tests.
